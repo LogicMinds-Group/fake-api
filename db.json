@@ -1,0 +1,334 @@
+{
+  "Properties": [
+    {
+      "id": 1,
+      "authorId": 1,
+      "name": "Casa en el campo",
+      "urlImg": "https://example.com/image1.jpg",
+      "description": "Hermosa casa con vistas al campo.",
+      "characteristics": "3 habitaciones, jardín",
+      "location": "Ciudad A",
+      "category": "Casa",
+      "available": true,
+      "renterId": 2
+    },
+    {
+      "id": 2,
+      "authorId": 2,
+      "name": "Apartamento en la playa",
+      "urlImg": "https://example.com/image2.jpg",
+      "description": "Apartamento con vista al mar.",
+      "characteristics": "2 habitaciones, piscina",
+      "location": "Ciudad B",
+      "category": "Apartamento",
+      "available": true,
+      "renterId": 1
+    },
+    {
+      "id": 3,
+      "authorId": 3,
+      "name": "Cabaña en la montaña",
+      "urlImg": "https://example.com/image3.jpg",
+      "description": "Cabaña acogedora en las montañas.",
+      "characteristics": "1 habitación, chimenea",
+      "location": "Ciudad C",
+      "category": "Cabaña",
+      "available": false,
+      "renterId": 2
+    },
+    {
+      "id": 4,
+      "authorId": 4,
+      "name": "Piso en el centro de la ciudad",
+      "urlImg": "https://example.com/image4.jpg",
+      "description": "Piso moderno en el centro de la ciudad.",
+      "characteristics": "2 habitaciones, balcón",
+      "location": "Ciudad D",
+      "category": "Apartamento",
+      "available": true,
+      "renterId": 1
+    },
+    {
+      "id": 5,
+      "authorId": 5,
+      "name": "Hacienda histórica",
+      "urlImg": "https://example.com/image5.jpg",
+      "description": "Hacienda con historia y encanto.",
+      "characteristics": "5 habitaciones, piscina",
+      "location": "Ciudad E",
+      "category": "Casa",
+      "available": true,
+      "renterId": 2
+    }
+  ],
+
+  "Posts": [
+    {
+      "id": 1,
+      "propertyId": 1,
+      "title": "Hermosa casa en el campo",
+      "price": 250000
+    },
+    {
+      "id": 2,
+      "propertyId": 3,
+      "title": "Vistas al mar desde este apartamento",
+      "price": 150000
+    },
+    {
+      "id": 3,
+      "propertyId": 4,
+      "title": "Cabaña acogedora en la montaña",
+      "price": 90000
+    },
+    {
+      "id": 4,
+      "propertyId": 2,
+      "title": "Piso en el corazón de la ciudad",
+      "price": 180000
+    },
+    {
+      "id": 5,
+      "propertyId": 5,
+      "title": "Hacienda histórica con encanto",
+      "price": 550000
+    }
+  ],
+
+  "Users": [
+    {
+      "id": 1,
+      "name": "John",
+      "lastName": "Doe",
+      "age": 30,
+      "gender": "Male",
+      "description": "Avid traveler and nature enthusiast.",
+      "isPremium": true
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "lastName": "Smith",
+      "age": 28,
+      "gender": "Female",
+      "description": "Tech enthusiast and software developer.",
+      "isPremium": false
+    },
+    {
+      "id": 3,
+      "name": "Alice",
+      "lastName": "Johnson",
+      "age": 35,
+      "gender": "Female",
+      "description": "Art lover and freelance artist.",
+      "isPremium": true
+    },
+    {
+      "id": 4,
+      "name": "Bob",
+      "lastName": "Brown",
+      "age": 25,
+      "gender": "Male",
+      "description": "Sports enthusiast and fitness trainer.",
+      "isPremium": false
+    },
+    {
+      "id": 5,
+      "name": "Eva",
+      "lastName": "Williams",
+      "age": 40,
+      "gender": "Female",
+      "description": "Foodie and culinary expert.",
+      "isPremium": true
+    }
+  ],
+
+
+  "EmilyBrown": [
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "¿Qué te parece si planeamos unas vacaciones juntos? ¿Algún lugar que siempre hayas querido visitar?"
+    },
+    {
+      "authorId": "2",
+      "recipientId": "1",
+      "content": "¡Eso suena emocionante! Siempre he querido ir a París. ¿Qué opinas de esa idea?"
+    },
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "¡París suena perfecto! Imagina pasear juntos por la Torre Eiffel y disfrutar de la deliciosa comida francesa. Sería un sueño hecho realidad."
+    },
+    {
+      "authorId": "2",
+      "recipientId": "1",
+      "content": "Estoy emocionada solo de pensarlo. Sería el viaje más romántico de nuestras vidas. ❤️"
+    },
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "También puedo imaginar una cena en un encantador café parisino. ¿Qué platillo te gustaría probar primero?"
+    },
+    {
+      "authorId": "2",
+      "recipientId": "1",
+      "content": "Definitivamente quiche lorraine y croissants. ¡Y no olvidemos el vino! 🍷"
+    },
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "¡Buena elección! Y después podríamos dar un paseo nocturno por el Sena, bajo las luces de la ciudad."
+    },
+    {
+      "authorId": "2",
+      "recipientId": "1",
+      "content": "Eso suena tan romántico. No puedo esperar para que se haga realidad, mi amor. 💕"
+    },
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "Cada día a tu lado es una aventura, y quiero vivir muchas más juntos. ¿Tienes algún sueño que quieras cumplir?"
+    },
+    {
+      "authorId": "2",
+      "recipientId": "1",
+      "content": "Mi mayor sueño es construir una vida feliz a tu lado, y eso es lo que estamos haciendo. 😊"
+    },
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "Eres mi mayor alegría y mi mayor logro. No puedo pedir nada más en la vida."
+    },
+    {
+      "authorId": "2",
+      "recipientId": "1",
+      "content": "Tú también eres mi mayor alegría, mi amor. Estoy agradecida por cada momento que compartimos. 💖"
+    },
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "¿Cómo te sientes hoy? ¿Hay algo en particular que quieras compartir?"
+    },
+    {
+      "authorId": "2",
+      "recipientId": "1",
+      "content": "Hoy me siento especialmente feliz porque tengo a la mejor persona a mi lado. 😄 ¿Y tú?"
+    },
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "Me siento igual de feliz, sabiendo que te tengo a ti. Eres mi luz en los días más oscuros."
+    },
+    {
+      "authorId": "2",
+      "recipientId": "1",
+      "content": "Nuestra conexión es mi refugio en cualquier momento. Te amo más de lo que las palabras pueden expresar. ❤️"
+    },
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "Y yo te amo con todo mi corazón, más de lo que jamás creí posible. Eres mi todo."
+    },
+    {
+      "authorId": "2",
+      "recipientId": "1",
+      "content": "Estaré esperando ansiosamente el día en que podamos abrazarnos y decirnos esto en persona. 🥰"
+    },
+    {
+      "authorId": "1",
+      "recipientId": "2",
+      "content": "No puedo esperar para ese momento. Será el día más especial de nuestras vidas. Te amo, mi amor. ❤️"
+    }
+  ],
+  "ForumQuestion": [
+    {
+      "id": 1,
+      "authorId": 1,
+      "question": "¿Alguien ha encontrado algún buen departamento en el centro de la ciudad?"
+    },
+    {
+      "id": 2,
+      "authorId": 2,
+      "question": "¿Cuáles son las mejores zonas para buscar un dormitorio en alquiler?"
+    },
+    {
+      "id": 3,
+      "authorId": 3,
+      "question": "¿Dónde puedo encontrar locales comerciales en venta en la zona industrial?"
+    },
+    {
+      "id": 4,
+      "authorId": 4,
+      "question": "¿Alguien ha tenido éxito en encontrar una casa con jardín cerca de parques?"
+    },
+    {
+      "id": 5,
+      "authorId": 5,
+      "question": "¿Cuáles son los precios promedio de los apartamentos de un dormitorio en esta área?"
+    }
+  ],
+  "ForumAnswer": [
+    {
+      "id": 1,
+      "questionId":1,
+      "authorId": 2,
+      "content": "Es importante tener en cuenta que la disponibilidad y los precios de los departamentos en el centro de la ciudad pueden variar según la demanda y la oferta en el mercado inmobiliario. Por lo tanto, te recomendaría estar atento a las nuevas publicaciones y ser perseverante en tu búsqueda para aumentar tus posibilidades de encontrar un buen departamento en el centro de la ciudad."
+    },
+    {
+      "id": 2,
+      "questionId":1,
+      "authorId": 3,
+      "content": "Sí, muchas personas han encontrado buenos departamentos en el centro de la ciudad."
+    },
+    {
+      "id": 3,
+      "questionId":2,
+      "authorId": 1,
+      "content":"Algunas de las mejores zonas en Perú para buscar un dormitorio en alquiler son: Miraflores y San Isidro"
+    },
+    {
+      "id": 4,
+      "questionId":2,
+      "authorId": 3,
+      "content":"Además de estas zonas, también puedes considerar otros distritos como Surco, La Molina, San Borja y Pueblo Libre, que también tienen una oferta interesante de dormitorios en alquiler. Recuerda siempre investigar sobre la seguridad y las comodidades de cada zona antes de tomar una decisión."
+    },
+    {
+      "id": 5,
+      "questionId":3,
+      "authorId": 4,
+      "content":"Para encontrar locales comerciales en venta te recomendaría: Pasarte a la versión premium de la aplicación para ver más publicaciones."
+    },
+    {
+      "id": 6,
+      "questionId":3,
+      "authorId": 5,
+      "content":"Es importante tener en cuenta que la disponibilidad y los precios de los locales comerciales en la zona industrial pueden variar según la ubicación y la demanda en el mercado. Por lo tanto, te recomendaría realizar una investigación exhaustiva y comparar diferentes opciones antes de tomar una decisión"
+    },
+    {
+      "id": 7,
+      "questionId":4,
+      "authorId": 1,
+      "content":"Sí, muchas personas han tenido éxito en encontrar casas con jardín cerca de parques."
+    },
+    {
+      "id": 8,
+      "questionId":4,
+      "authorId": 3,
+      "content":"Es recomendable realizar visitas a las propiedades que te interesen y verificar personalmente si cumplen con tus expectativas en cuanto al jardín y la cercanía a parques."
+    },
+    {
+      "id": 9,
+      "questionId":5,
+      "authorId": 3,
+      "content":"Los precios promedio de los apartamentos de un dormitorio pueden oscilar entre 600 y 1500 dólares americanos al mes, dependiendo de la ubicación. Las zonas más exclusivas y céntricas tienden a ser más costosas."
+    },
+    {
+      "id": 10,
+      "questionId":5,
+      "authorId": 2,
+      "content":"Los precios promedio de los apartamentos de un dormitorio puede variar según la ubicación"
+    }
+  ]   
+}
+  
