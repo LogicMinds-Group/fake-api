@@ -4,11 +4,11 @@
       "id": 1,
       "authorId": 1,
       "name": "Casa en el campo",
-      "urlImg": "https://example.com/image1.jpg",
+      "urlImg": "https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "description": "Hermosa casa con vistas al campo.",
       "characteristics": "3 habitaciones, jardín",
       "location": "Ciudad A",
-      "category": "Casa",
+      "category": "house",
       "available": true,
       "renterId": 2
     },
@@ -16,11 +16,11 @@
       "id": 2,
       "authorId": 2,
       "name": "Apartamento en la playa",
-      "urlImg": "https://example.com/image2.jpg",
+      "urlImg": "https://blog.nexoinmobiliario.pe/wp-content/uploads/2022/06/destacada-identificar-departamentos-modernos-nexo-inmobiliario.jpg",
       "description": "Apartamento con vista al mar.",
       "characteristics": "2 habitaciones, piscina",
       "location": "Ciudad B",
-      "category": "Apartamento",
+      "category": "department",
       "available": true,
       "renterId": 1
     },
@@ -28,11 +28,11 @@
       "id": 3,
       "authorId": 3,
       "name": "Cabaña en la montaña",
-      "urlImg": "https://example.com/image3.jpg",
-      "description": "Cabaña acogedora en las montañas.",
+      "urlImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/482241348.jpg?k=b2b224709fdec8df749e7914ec9b99d6d06334199d22234e70b7033652124c54&o=&hp=1",
+      "description": "Linda y amplia habitacion para estudiantes",
       "characteristics": "1 habitación, chimenea",
       "location": "Ciudad C",
-      "category": "Cabaña",
+      "category": "room",
       "available": false,
       "renterId": 2
     },
@@ -40,28 +40,27 @@
       "id": 4,
       "authorId": 4,
       "name": "Piso en el centro de la ciudad",
-      "urlImg": "https://example.com/image4.jpg",
+      "urlImg": "https://www.livingspaces.com/globalassets/images/inspiration/rooms/living/boho-living-room-with-reid-grey-sofa_1.jpg?w=580&h=440&mode=pad",
       "description": "Piso moderno en el centro de la ciudad.",
       "characteristics": "2 habitaciones, balcón",
       "location": "Ciudad D",
-      "category": "Apartamento",
+      "category": "department",
       "available": true,
       "renterId": 1
     },
     {
       "id": 5,
       "authorId": 5,
-      "name": "Hacienda histórica",
-      "urlImg": "https://example.com/image5.jpg",
+      "name": "Tienda en plaza norte",
+      "urlImg": "https://plazanorte.pe//wp-content/uploads/2023/02/FOTO-WEB-9.jpg",
       "description": "Hacienda con historia y encanto.",
       "characteristics": "5 habitaciones, piscina",
       "location": "Ciudad E",
-      "category": "Casa",
+      "category": "commercialSpace",
       "available": true,
       "renterId": 2
     }
   ],
-
   "Posts": [
     {
       "id": 1,
@@ -72,47 +71,48 @@
     {
       "id": 2,
       "propertyId": 3,
-      "title": "Vistas al mar desde este apartamento",
+      "title": "Vistas al mar desde esta habitacion",
       "price": 150000
     },
     {
       "id": 3,
       "propertyId": 4,
-      "title": "Cabaña acogedora en la montaña",
+      "title": "Departamento acogedora en la montaña",
       "price": 90000
     },
     {
       "id": 4,
       "propertyId": 2,
-      "title": "Piso en el corazón de la ciudad",
+      "title": "Departamento en el corazón de la ciudad",
       "price": 180000
     },
     {
       "id": 5,
       "propertyId": 5,
-      "title": "Hacienda histórica con encanto",
+      "title": "Tienda Plaza Norte",
       "price": 550000
     }
   ],
-
   "Users": [
     {
-      "id": 1,
       "name": "John",
       "lastName": "Doe",
-      "age": 30,
       "gender": "Male",
       "description": "Avid traveler and nature enthusiast.",
-      "isPremium": true
+      "age": 30,
+      "photoUrl": "https://images.pexels.com/photos/4045762/pexels-photo-4045762.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "isPremium": true,
+      "id": 1
     },
     {
-      "id": 2,
       "name": "Jane",
       "lastName": "Smith",
-      "age": 28,
       "gender": "Female",
       "description": "Tech enthusiast and software developer.",
-      "isPremium": false
+      "age": 28,
+      "photoUrl": "https://images.pexels.com/photos/4063856/pexels-photo-4063856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "isPremium": false,
+      "id": 2
     },
     {
       "id": 3,
@@ -121,7 +121,8 @@
       "age": 35,
       "gender": "Female",
       "description": "Art lover and freelance artist.",
-      "isPremium": true
+      "isPremium": true,
+      "photoUrl": ""
     },
     {
       "id": 4,
@@ -130,7 +131,8 @@
       "age": 25,
       "gender": "Male",
       "description": "Sports enthusiast and fitness trainer.",
-      "isPremium": false
+      "isPremium": false,
+      "photoUrl": ""
     },
     {
       "id": 5,
@@ -139,11 +141,10 @@
       "age": 40,
       "gender": "Female",
       "description": "Foodie and culinary expert.",
-      "isPremium": true
+      "isPremium": true,
+      "photoUrl": ""
     }
   ],
-
-
   "EmilyBrown": [
     {
       "authorId": "1",
@@ -271,64 +272,63 @@
   "ForumAnswer": [
     {
       "id": 1,
-      "questionId":1,
+      "questionId": 1,
       "authorId": 2,
       "content": "Es importante tener en cuenta que la disponibilidad y los precios de los departamentos en el centro de la ciudad pueden variar según la demanda y la oferta en el mercado inmobiliario. Por lo tanto, te recomendaría estar atento a las nuevas publicaciones y ser perseverante en tu búsqueda para aumentar tus posibilidades de encontrar un buen departamento en el centro de la ciudad."
     },
     {
       "id": 2,
-      "questionId":1,
+      "questionId": 1,
       "authorId": 3,
       "content": "Sí, muchas personas han encontrado buenos departamentos en el centro de la ciudad."
     },
     {
       "id": 3,
-      "questionId":2,
+      "questionId": 2,
       "authorId": 1,
-      "content":"Algunas de las mejores zonas en Perú para buscar un dormitorio en alquiler son: Miraflores y San Isidro"
+      "content": "Algunas de las mejores zonas en Perú para buscar un dormitorio en alquiler son: Miraflores y San Isidro"
     },
     {
       "id": 4,
-      "questionId":2,
+      "questionId": 2,
       "authorId": 3,
-      "content":"Además de estas zonas, también puedes considerar otros distritos como Surco, La Molina, San Borja y Pueblo Libre, que también tienen una oferta interesante de dormitorios en alquiler. Recuerda siempre investigar sobre la seguridad y las comodidades de cada zona antes de tomar una decisión."
+      "content": "Además de estas zonas, también puedes considerar otros distritos como Surco, La Molina, San Borja y Pueblo Libre, que también tienen una oferta interesante de dormitorios en alquiler. Recuerda siempre investigar sobre la seguridad y las comodidades de cada zona antes de tomar una decisión."
     },
     {
       "id": 5,
-      "questionId":3,
+      "questionId": 3,
       "authorId": 4,
-      "content":"Para encontrar locales comerciales en venta te recomendaría: Pasarte a la versión premium de la aplicación para ver más publicaciones."
+      "content": "Para encontrar locales comerciales en venta te recomendaría: Pasarte a la versión premium de la aplicación para ver más publicaciones."
     },
     {
       "id": 6,
-      "questionId":3,
+      "questionId": 3,
       "authorId": 5,
-      "content":"Es importante tener en cuenta que la disponibilidad y los precios de los locales comerciales en la zona industrial pueden variar según la ubicación y la demanda en el mercado. Por lo tanto, te recomendaría realizar una investigación exhaustiva y comparar diferentes opciones antes de tomar una decisión"
+      "content": "Es importante tener en cuenta que la disponibilidad y los precios de los locales comerciales en la zona industrial pueden variar según la ubicación y la demanda en el mercado. Por lo tanto, te recomendaría realizar una investigación exhaustiva y comparar diferentes opciones antes de tomar una decisión"
     },
     {
       "id": 7,
-      "questionId":4,
+      "questionId": 4,
       "authorId": 1,
-      "content":"Sí, muchas personas han tenido éxito en encontrar casas con jardín cerca de parques."
+      "content": "Sí, muchas personas han tenido éxito en encontrar casas con jardín cerca de parques."
     },
     {
       "id": 8,
-      "questionId":4,
+      "questionId": 4,
       "authorId": 3,
-      "content":"Es recomendable realizar visitas a las propiedades que te interesen y verificar personalmente si cumplen con tus expectativas en cuanto al jardín y la cercanía a parques."
+      "content": "Es recomendable realizar visitas a las propiedades que te interesen y verificar personalmente si cumplen con tus expectativas en cuanto al jardín y la cercanía a parques."
     },
     {
       "id": 9,
-      "questionId":5,
+      "questionId": 5,
       "authorId": 3,
-      "content":"Los precios promedio de los apartamentos de un dormitorio pueden oscilar entre 600 y 1500 dólares americanos al mes, dependiendo de la ubicación. Las zonas más exclusivas y céntricas tienden a ser más costosas."
+      "content": "Los precios promedio de los apartamentos de un dormitorio pueden oscilar entre 600 y 1500 dólares americanos al mes, dependiendo de la ubicación. Las zonas más exclusivas y céntricas tienden a ser más costosas."
     },
     {
       "id": 10,
-      "questionId":5,
+      "questionId": 5,
       "authorId": 2,
-      "content":"Los precios promedio de los apartamentos de un dormitorio puede variar según la ubicación"
+      "content": "Los precios promedio de los apartamentos de un dormitorio puede variar según la ubicación"
     }
-  ]   
+  ]
 }
-  
